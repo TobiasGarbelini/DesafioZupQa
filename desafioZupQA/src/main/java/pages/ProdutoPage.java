@@ -19,7 +19,8 @@ public class ProdutoPage extends DSL {
 
 	public void adicionaNoCarrinho() {
 		// clico em comprar
-		clickid("btn-buy");
+		//clickid("btn-buy");
+		clickXpath("//div[2]/div/div[2]/div/div/div/div/a/div");
 	}
 
 }
