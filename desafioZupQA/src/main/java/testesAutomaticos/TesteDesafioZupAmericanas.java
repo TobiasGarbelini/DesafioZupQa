@@ -40,7 +40,7 @@ public class TesteDesafioZupAmericanas extends BaseTest {
 				{ "conjunto de panela" },
 				/* [2] quando fiz o teste, adicionando um espaço e mandando pesquisar estava ocorrendo
 				 erro e página ficava indisponível e assim o teste falha*/
-				{ "" }
+				{ " " }
 		});
 	}
 
