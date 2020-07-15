@@ -1,0 +1,451 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-11T23:50:08.480Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18458697700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.DesafioZupSteps.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Deve adicionar um produto no carrinho e validar se o mesmo foi adicionar corretamente",
+        "description": "",
+        "id": "desafiozup;deve-adicionar-um-produto-no-carrinho-e-validar-se-o-mesmo-foi-adicionar-corretamente;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3123344600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.DesafioZupSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7898140700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "estou na pagina inicial com o carrinho vazio",
+            "match": {
+              "location": "steps.DesafioZupSteps.estou_na_pagina_inicial_com_o_carrinho_vazio()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 27209253900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "busco por um produto \"29302228\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"29302228\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.DesafioZupSteps.busco_por_um_produto(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 23237699600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "valido o retorno da busca \"29302228\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"29302228\"",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.DesafioZupSteps.valido_o_retorno_da_busca(java.lang.String)"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 967402600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "pego nome do produto",
+            "match": {
+              "location": "steps.DesafioZupSteps.pego_o_nome_do_produto()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2145681200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "pego o valor do produto",
+            "match": {
+              "location": "steps.DesafioZupSteps.pego_o_valor_do_produto()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 4890293000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Adiciono o produto no carrinho",
+            "match": {
+              "location": "steps.DesafioZupSteps.adiciono_o_produto_no_carrinho()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 21142990000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "verifico informacoes no carrinho",
+            "match": {
+              "location": "steps.DesafioZupSteps.verifico_informacoes_no_carrinho()"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 4757072000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "volto para a pagina inicial com item no carrinho",
+            "match": {
+              "location": "steps.DesafioZupSteps.volto_para_a_pagina_inicial_com_item_no_carrinho()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fluxoPadrao"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-11T23:52:02.779Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14895313300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.DesafioZupSteps.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Deve adicionar um produto no carrinho e validar se o mesmo foi adicionar corretamente",
+        "description": "",
+        "id": "desafiozup;deve-adicionar-um-produto-no-carrinho-e-validar-se-o-mesmo-foi-adicionar-corretamente;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2767557300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.DesafioZupSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6527981600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "estou na pagina inicial com o carrinho vazio",
+            "match": {
+              "location": "steps.DesafioZupSteps.estou_na_pagina_inicial_com_o_carrinho_vazio()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 32654903400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "busco por um produto \"conjunto de panela\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"conjunto de panela\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.DesafioZupSteps.busco_por_um_produto(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: conjunto de panela (tried for 60 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat core.DSL.esperaElementoclicavelLinkText(DSL.java:23)\r\n\tat pages.ResultadoPesquisaPage.validaPesquisaProduto(ResultadoPesquisaPage.java:9)\r\n\tat steps.DesafioZupSteps.valido_o_retorno_da_busca(DesafioZupSteps.java:55)\r\n\tat ✽.valido o retorno da busca \"conjunto de panela\"(file:///C:/Users/tobgs/eclipse-workspace/DesafioZup/src/test/resources/features/TesteDesafioZupAmericanas.feature:17)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"conjunto de panela\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-1RFL0N6\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\tobgs\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50092}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c0d748addea1c8dd5c4768721b6e3a75\n*** Element info: {Using\u003dlink text, value\u003dconjunto de panela}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat core.DSL.esperaElementoclicavelLinkText(DSL.java:23)\r\n\tat pages.ResultadoPesquisaPage.validaPesquisaProduto(ResultadoPesquisaPage.java:9)\r\n\tat steps.DesafioZupSteps.valido_o_retorno_da_busca(DesafioZupSteps.java:55)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:44)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:98)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:118)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:192)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:88)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:227)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n",
+              "duration": 66102810500,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "valido o retorno da busca \"conjunto de panela\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"conjunto de panela\"",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.DesafioZupSteps.valido_o_retorno_da_busca(java.lang.String)"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 2000400,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "pego nome do produto",
+            "match": {
+              "location": "steps.DesafioZupSteps.pego_o_nome_do_produto()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2993700,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "pego o valor do produto",
+            "match": {
+              "location": "steps.DesafioZupSteps.pego_o_valor_do_produto()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1998000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Adiciono o produto no carrinho",
+            "match": {
+              "location": "steps.DesafioZupSteps.adiciono_o_produto_no_carrinho()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 998800,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "verifico informacoes no carrinho",
+            "match": {
+              "location": "steps.DesafioZupSteps.verifico_informacoes_no_carrinho()"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "volto para a pagina inicial com item no carrinho",
+            "match": {
+              "location": "steps.DesafioZupSteps.volto_para_a_pagina_inicial_com_item_no_carrinho()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fluxoPadrao"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-11T23:54:05.939Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15669132900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.DesafioZupSteps.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Deve adicionar um produto no carrinho e validar se o mesmo foi adicionar corretamente",
+        "description": "",
+        "id": "desafiozup;deve-adicionar-um-produto-no-carrinho-e-validar-se-o-mesmo-foi-adicionar-corretamente;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1904993300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.DesafioZupSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6084257100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "estou na pagina inicial com o carrinho vazio",
+            "match": {
+              "location": "steps.DesafioZupSteps.estou_na_pagina_inicial_com_o_carrinho_vazio()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 11377996300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "busco por um produto \" \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.DesafioZupSteps.busco_por_um_produto(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText:   (tried for 60 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat core.DSL.esperaElementoclicavelLinkText(DSL.java:23)\r\n\tat pages.ResultadoPesquisaPage.validaPesquisaProduto(ResultadoPesquisaPage.java:9)\r\n\tat steps.DesafioZupSteps.valido_o_retorno_da_busca(DesafioZupSteps.java:55)\r\n\tat ✽.valido o retorno da busca \" \"(file:///C:/Users/tobgs/eclipse-workspace/DesafioZup/src/test/resources/features/TesteDesafioZupAmericanas.feature:17)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\" \"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-1RFL0N6\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\tobgs\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 7402757524c7351f097d5dcbd2d4966d\n*** Element info: {Using\u003dlink text, value\u003d }\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat core.DSL.esperaElementoclicavelLinkText(DSL.java:23)\r\n\tat pages.ResultadoPesquisaPage.validaPesquisaProduto(ResultadoPesquisaPage.java:9)\r\n\tat steps.DesafioZupSteps.valido_o_retorno_da_busca(DesafioZupSteps.java:55)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:44)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:98)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:118)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:192)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:88)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:227)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n",
+              "duration": 60261819300,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "valido o retorno da busca \" \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \"",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.DesafioZupSteps.valido_o_retorno_da_busca(java.lang.String)"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "pego nome do produto",
+            "match": {
+              "location": "steps.DesafioZupSteps.pego_o_nome_do_produto()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "pego o valor do produto",
+            "match": {
+              "location": "steps.DesafioZupSteps.pego_o_valor_do_produto()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Adiciono o produto no carrinho",
+            "match": {
+              "location": "steps.DesafioZupSteps.adiciono_o_produto_no_carrinho()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "verifico informacoes no carrinho",
+            "match": {
+              "location": "steps.DesafioZupSteps.verifico_informacoes_no_carrinho()"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 999300,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "volto para a pagina inicial com item no carrinho",
+            "match": {
+              "location": "steps.DesafioZupSteps.volto_para_a_pagina_inicial_com_item_no_carrinho()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fluxoPadrao"
+          }
+        ]
+      }
+    ],
+    "name": "DesafioZup",
+    "description": "  Entro no site da americanas\n  verifico se o carrinho esta vazio\n  busco por um produto que quero comprar\n  valido o retorno da busca\n  escolho um produto da lista\n  adiciono esse produto no carrinho\n  verifico as informacoes do produto no carrinho\n  volto para a pagina inicial\n  verifico se o carrinho esta com a quantidade de produtos que eu adicionei",
+    "id": "desafiozup",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/TesteDesafioZupAmericanas.feature",
+    "tags": []
+  }
+]
